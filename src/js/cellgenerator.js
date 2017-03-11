@@ -2,7 +2,7 @@
 
 import maps from './maps'
 import util from 'util'
-import modalHtml from '../../dist/res/modal.html'
+import modalHtml from '../../src/html/modal.html'
 
 var blockMap = maps.getBlockMap()
 var typeMap = maps.getTypeMap()

@@ -1,6 +1,6 @@
 import cellGenerator from './cellgenerator'
-import elements from '../../dist/res/elements'
-import lines from '../../dist/res/layout'
+import elements from '../../src/json/elements'
+import lines from '../../src/json//layout'
 
 // Create table and load element data and create element
 var body = document.getElementsByTagName('body')[0]

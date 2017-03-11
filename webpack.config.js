@@ -17,9 +17,7 @@ const config = {
             },
             {
                 test: /\.png$/,
-                use: [ {
-                    loader: 'file-loader'
-                }],
+                loader: 'file-loader?name=res/[hash].[ext]'
             }
         ]
     },
